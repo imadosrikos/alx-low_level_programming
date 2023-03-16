@@ -6,7 +6,7 @@
 
 int main (void) {
     
-    // initialisation strings
+    // initializing strings
 
     char str1[] ="\n\"Programming is like building a multilingual puzzle";
 
