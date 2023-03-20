@@ -25,17 +25,17 @@ srand(time(0));
 n = rand() - RAND_MAX / 2; 
 /* printf the value of n */
 
- if (n > 0)
+ if(n > 0)
 
-  printf ("\n%d is positive", n);
+  printf("\n%d is positive", n);
 
- else if (n < 0)
+ else if(n < 0)
 
-   printf ("\n%d is negative", n);
+   printf("\n%d is negative", n);
  
- else if (n == 0)
+ else if(n == 0)
 
-  printf ("\n%d is zero", n);
+  printf("\n%d is zero", n);
 
  return(0);
 
