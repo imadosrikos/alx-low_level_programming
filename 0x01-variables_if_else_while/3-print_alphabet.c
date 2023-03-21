@@ -6,31 +6,18 @@
 * Return: 0
 */
 int main(void)
-{
-char c = 'a';
-
-
-while (c <= 'z')
 
 {
 
-putchar(c);
+char x;
 
-c++;
+for(x = 'a' ; x <= 'z' ; x++)
 
-}
+putchar(x);
 
-c = 'A';
+for(x = 'A' ; x <= 'Z' ; x++)
 
-while (c <= 'Z')
-
-{
-
-putchar(c);
-
-c++;
-
-}
+putchar(x);
 
 putchar('\n');
 
